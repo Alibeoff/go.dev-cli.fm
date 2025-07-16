@@ -1,4 +1,4 @@
-module go.gev-cli.fm
+module go.dev-cli.fm
 
 go 1.24.2
 
