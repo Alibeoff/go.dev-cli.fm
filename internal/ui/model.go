@@ -65,7 +65,7 @@ func InitialModel() Model {
 		Focus:        "local",
 		HomeDir:      homeDir,
 		Connections:  conns,
-		ConnForm:     ConnForm{Inputs: [3]string{"", "", ""}, Focused: 0, Editing: false},
+		ConnForm:     ConnForm{Inputs: [4]string{"", "", "", ""}, Focused: 0, Editing: false},
 		ConnCursor:   0,
 		ConnSubFocus: "list",
 	}

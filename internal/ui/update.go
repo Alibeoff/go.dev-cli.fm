@@ -245,7 +245,7 @@ func (m *Model) handleConnListKey(key tea.KeyMsg) {
 	case "c":
 		m.ConnForm.Editing = true
 		m.ConnForm.Focused = 0
-		m.ConnForm.Inputs = [3]string{"", "", ""}
+		m.ConnForm.Inputs = [4]string{"", "", "", ""}
 		m.ConnSubFocus = "form"
 	case "l", "enter":
 		m.connectToSelected()
@@ -268,9 +268,9 @@ func (m *Model) connectToSelected() {
 		m.SshClient = nil
 	}
 
-	sshClient, err := sftpclient.ConnectSSHWithKeyPath(conn.Name, conn.Host, conn.Path)
+	sshClient, err := sftpclient.ConnectSSH(conn.Name, conn.Host, conn.Path, conn.Password)
 	if err != nil {
-		m.ConnStatus = "Ошибка подключения: " + err.Error()
+		m.ConnStatus = "Ошибка соединения: " + err.Error()
 		return
 	}
 

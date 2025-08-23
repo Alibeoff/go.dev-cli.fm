@@ -1,0 +1,32 @@
+[
+  {
+    "name": "core",
+    "password": "",
+    "host": "217.107.100.205:14511",
+    "path": "/Users/core/.ssh/id_rsa"
+  },
+  {
+    "name": "root",
+    "password": "eed7Gaec",
+    "host": "45.142.208.244:22",
+    "path": ""
+  },
+  {
+    "name": "Milas",
+    "password": "",
+    "host": "34.123.532/",
+    "path": "idne/mde.fkd"
+  },
+  {
+    "name": "fef",
+    "password": "",
+    "host": "fefe",
+    "path": "fef"
+  },
+  {
+    "name": "dwfs",
+    "password": "lolkek",
+    "host": "1234.1234",
+    "path": "/Users/core/.ssh/id_rsa"
+  }
+]
