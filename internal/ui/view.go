@@ -72,7 +72,7 @@ func (m *Model) RenderConnections() string {
 	}
 	b.WriteString("\n")
 	if m.ConnForm.Editing && m.ConnSubFocus == "form" {
-		b.WriteString("Добавить новое соединение (Ctrl+A - сохранить, Ctrl+C - отмена):\n")
+		b.WriteString("Добавить новое соединение (Ctrl+A - сохранить, Ctrl+D - отмена):\n")
 		labels := []string{"Имя: ", "Host: ", "Путь к ключу: "}
 		for i, label := range labels {
 			line := label + m.ConnForm.Inputs[i]

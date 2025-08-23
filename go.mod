@@ -1,5 +1,3 @@
-module go.dev-cli.fm
-
 go 1.24.2
 
 require (

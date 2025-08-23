@@ -61,7 +61,7 @@ go build -o sftp-fm
   - In form:  
     - Enter to move between fields.  
     - `Ctrl+A` to save connection.  
-    - `Ctrl+C` to cancel.  
+    - `Ctrl+D` to cancel.  
   - Select a connection and press `l` or `Enter` to connect via SFTP.  
   - `d` deletes selected connection.
 

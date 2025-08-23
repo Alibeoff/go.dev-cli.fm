@@ -14,7 +14,7 @@ type ConnForm struct {
 
 func (m *Model) HandleConnFormKey(msg tea.KeyMsg) {
 	switch msg.String() {
-	case "esc", "ctrl+c":
+	case "esc", "ctrl+d":
 		m.ConnForm = ConnForm{Inputs: [3]string{"", "", ""}, Focused: 0, Editing: false}
 		m.ConnSubFocus = "list"
 
