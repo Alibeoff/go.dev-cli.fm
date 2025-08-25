@@ -132,6 +132,5 @@ func (fm *FileManager) Render(focused bool, title string, borderStyle lipgloss.S
 	return lipgloss.JoinVertical(lipgloss.Left,
 		header,
 		fileList,
-		// lipgloss.NewStyle().Italic(true).Foreground(lipgloss.Color("#FFA500")).Render(fm.Status),
 	)
 }
